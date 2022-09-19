@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <link rel="stylesheet" href="stylo.css">
+    <title>Pagina personal</title>
+</head>
+
+<body> 
+    <div class="contenedor">
+        <header>
+             <div class="logo">
+                <h1>Juan pablo cespedes mota</h1>
+                <p>Estudiante del ITLA </p>
+                <p>20197803@itla.edu.do </p>
+                <p>Tell:8492074775</p>
+                <p>Dirrecion:nigua #15</p>
+             </div> 
+             <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+             </form>
+             <div class="categorias" id="categorias">
+                <a href="#" class="activo">todos</a>
+                <a href="#">perfil</a>
+                <a href="#">familia</a>
+                <a href="#">hoby</a>
+             </div>
+        </header>
+        <section class="grid" id="grid">
+            <div class="item" 
+                data-categoria="hoby"
+			    data-etiquetas="deporte hoby"
+			    data-descripcion="Un deporte que practique en mi juventud">
+                <div class="item-contenido">
+                    <img src="imagenes/hobi5.jpg" alt="" >
+                </div>
+            </div>
+           
+            <div class="item"
+                data-categoria="hoby"
+			    data-etiquetas="deporte hoby"
+			    data-descripcion="Un deporte que practique en mi juventud">
+                <div class="item-contenido">
+                    <img src="imagenes/hoby2.webp" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="hoby"
+			    data-etiquetas="deporte hoby"
+			    data-descripcion="Un deporte que practique en mi juventud">
+                <div class="item-contenido">
+                    <img src="imagenes/hoby3.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="familia"
+			    data-etiquetas="familia personas"
+			    data-descripcion="mi familia">
+                <div class="item-contenido">
+                    <img src="imagenes/familia1.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="familia"
+			    data-etiquetas="familia personas"
+			    data-descripcion="mi familia">
+                <div class="item-contenido">
+                    <img src="imagenes/familia2.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="familia"
+			    data-etiquetas="familia personas"
+			    data-descripcion="mi familia">
+                <div class="item-contenido">
+                    <img src="imagenes/familia3.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="perfil"
+			    data-etiquetas="perfil personas yo"
+			    data-descripcion="este soy yo">
+                <div class="item-contenido">
+                    <img src="imagenes/pablo1.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="perfil"
+			    data-etiquetas="perfil personas yo"
+			    data-descripcion="este soy yo">
+                <div class="item-contenido">
+                    <img src="imagenes/pablo2.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+            <div class="item"
+                data-categoria="perfil"
+			    data-etiquetas="perfil personas yo"
+			    data-descripcion="este soy yo">
+                <div class="item-contenido">
+                    <img src="imagenes/pablo3.jpg" alt="" width="px" height="px">
+                </div>
+            </div>
+        </section>
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://twitter.com/cespedes_mota?t=6iFsbfifODdztm-28VtCfQ&s=08" target="_blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/jp.cespedesmota/" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.instagram.com/juanpcespedesm/" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio diseñado por <a href="#">juan pablo cespedes</a> - <a href="https://www.falconmasters.com">Fuente de aprendisaje</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    <iframe width="360" height="115" src="https://www.youtube.com/embed/eev9RPCM4hg?start=40 ?rel=0&autoplay=1  "
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js">
+    </script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js">
+    </script>
+    <script src="main.js"></script>
+
+</body>
+</html>
